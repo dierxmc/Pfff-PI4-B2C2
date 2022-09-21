@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+/bKcsAcLLH0D3u/F4sR8CLYsVjZY9UHMCxfirHaNMc=",
+  "Hash": "bEG9bB8OW30T2zO1XPe9NJ01PPHrQOQR1EmkJhMiYxA=",
   "Source": "Pfff-PI4-B2C2",
   "BasePath": "_content/Pfff-PI4-B2C2",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Pfff-PI4-B2C2.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "Pfff-PI4-B2C2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\",
+      "BasePath": "_content/Pfff-PI4-B2C2",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\css\\site.css",
