@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Pfff_PI4_B2C2.Areas.Identity.Data;
 using Pfff_PI4_B2C2.Models;
 using System.Diagnostics;
 
@@ -28,5 +30,6 @@ namespace Pfff_PI4_B2C2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }

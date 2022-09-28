@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol.Plugins;
 using Pfff_PI4_B2C2.Areas.Identity.Data;
 using Pfff_PI4_B2C2.Models;
@@ -20,6 +21,7 @@ namespace Pfff_PI4_B2C2.Controllers
             return View(objCameraList);
         }
 
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -28,6 +30,7 @@ namespace Pfff_PI4_B2C2.Controllers
         //POST - CREATE view
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult Create(Camera camera)
         {
             if (ModelState.IsValid)
@@ -40,7 +43,7 @@ namespace Pfff_PI4_B2C2.Controllers
         }
 
         //GET - DELETE view
-
+        [Authorize]
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -58,6 +61,7 @@ namespace Pfff_PI4_B2C2.Controllers
         //POST - DELETE view
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult DeletePOST(int? id)
         {
             var camera = db.Camera.Find(id);
@@ -69,5 +73,6 @@ namespace Pfff_PI4_B2C2.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
     }
 }

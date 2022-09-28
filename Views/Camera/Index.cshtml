@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<Camera>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -12,15 +12,19 @@
             <th>Camera</th>
             <th>Specification</th>
             <th>Aangemaakt op</th>
+            <th>xCoords</th>
+            <th>yCoords</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var obj in Model)
         {
             <tr>
-                <td width="33%">@obj.Location</td>
-                <td width="33%">@obj.Specification</td>
-                <td width="33%">@obj.CreatedOn</td>
+                <td width="20%">@obj.Location</td>
+                <td width="20%">@obj.Specification</td>
+                <td width="20%">@obj.CreatedOn</td>
+                <td width="20%">@obj.xCoords</td>
+                <td width="20%">@obj.yCoords</td>
             </tr>
         }
     </tbody>

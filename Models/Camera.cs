@@ -13,6 +13,12 @@ namespace Pfff_PI4_B2C2.Models
         [Required]
         public string Specification { get; set; }
 
+        [Required]
+        public float xCoords { get; set; }
+
+        [Required]
+        public float yCoords { get; set; }
+
         public DateTime CreatedOn { get; set; } = DateTime.Now;
     }
 }
