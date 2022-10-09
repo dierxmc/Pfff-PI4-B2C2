@@ -270,3 +270,7 @@ C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\runtime
 C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\obj\Debug\net6.0\Pfff-PI4-B2C2.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\Microsoft.Office.Interop.Excel.dll
+C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dierx\source\repos\Pfff-PI4-B2C2\Pfff-PI4-B2C2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
