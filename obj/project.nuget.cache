@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+IwGa9GOm9wKM7Tu1wZnAU+2FOeCJdSNV3vyWadFuJ/2QRlY09L1T30vPeQn3U5H/5kkevZh+haEm72V9OArJQ==",
+  "dgSpecHash": "ZoUtyQxP9gGhXVFkbBSZnIuEVP8RXZuQ/FtMrIE3kAYjaHwr1Ob6KRqvCOcTlbveU1f67bF5bCk10GCyCcl+Gg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.net.stringtools\\1.0.0\\microsoft.net.stringtools.1.0.0.nupkg.sha512",
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\dierx\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.9\\microsoft.visualstudio.web.codegeneration.6.0.9.nupkg.sha512",
     "C:\\Users\\dierx\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.9\\microsoft.visualstudio.web.codegeneration.core.6.0.9.nupkg.sha512",

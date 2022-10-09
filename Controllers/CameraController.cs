@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol.Plugins;
 using Pfff_PI4_B2C2.Areas.Identity.Data;
@@ -10,11 +11,15 @@ namespace Pfff_PI4_B2C2.Controllers
     {
         private readonly AppDbContext db;
 
-        public CameraController(AppDbContext db)
+        private UserManager<ApplicationUser> userManager;
+
+        public CameraController(AppDbContext db,UserManager<ApplicationUser> usrMgr)
         {
             this.db = db;
+            userManager = usrMgr;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             IEnumerable<Camera> objCameraList = db.Camera;

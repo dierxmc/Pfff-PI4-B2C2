@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.9, )"

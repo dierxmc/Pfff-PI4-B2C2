@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bEG9bB8OW30T2zO1XPe9NJ01PPHrQOQR1EmkJhMiYxA=",
+  "Hash": "nz9MmRUyNZUpZ7JhCIIDFQiTKbNnYXZqHEEIljiYR8E=",
   "Source": "Pfff-PI4-B2C2",
   "BasePath": "_content/Pfff-PI4-B2C2",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\css\\leaflet-search.css",
+      "SourceId": "Pfff-PI4-B2C2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\",
+      "BasePath": "_content/Pfff-PI4-B2C2",
+      "RelativePath": "css/leaflet-search.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\leaflet-search.css"
     },
     {
       "Identity": "C:\\Users\\dierx\\source\\repos\\Pfff-PI4-B2C2\\Pfff-PI4-B2C2\\wwwroot\\css\\site.css",

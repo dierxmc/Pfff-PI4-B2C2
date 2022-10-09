@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pfff_PI4_B2C2.Areas.Identity.Data;
 using Pfff_PI4_B2C2.Models;
@@ -14,7 +15,6 @@ namespace Pfff_PI4_B2C2.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
         {
             return View();
