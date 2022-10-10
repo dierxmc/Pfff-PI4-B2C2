@@ -1,5 +1,7 @@
 ﻿@page
 @model RegisterModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 @{
     ViewData["Title"] = "Register";
 }
@@ -36,6 +38,11 @@
                 <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.Points" class="form-control" autocomplete="points" aria-required="true" value="50"/>
+                <label asp-for="Input.Points"></label>
+                <span asp-validation-for="Input.Points" class="text-danger"></span>
             </div>
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
